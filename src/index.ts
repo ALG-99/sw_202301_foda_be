@@ -48,4 +48,3 @@ MongoDBConn.getConnection().then(()=>{
 }).catch((error)=>{
   console.error("No se pudo conectar a la DB", error);
 });
-:
